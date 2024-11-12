@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: black;color: white;">
+    <h1>Hola Amigo</h1>
+
+    <!-- <h2>2</h2>
+    <h2>+</h2>
+    <h2>2</h2>
+    <h2>=</h2> -->
+
+
+    <h2 id="one">Hi</h2>
+    <button onclick="document.getElementById('one').innerHTML ='Amigo'">Change</button>
+
+
+    <h3></h3>
+    <h4></h4>
+
+
+    <script>
+        document.getElementById('one').innerHTML = 'Hello'
+
+        // a = "Bilal"
+        // b = "Huzaifah"
+        // c = 40
+
+        // console.log( a + " " + b + " " + c )
+        // console.log(a+b+c)
+        // console.log(a-b-c)
+        // console.log(a*b*c)
+        // console.log(a/b/c)
+
+        // class361 = ["Moshin","Faiz","Sameer","Tabish"]
+        // console.log(class361[1] , class361[2])
+
+        // Nasted
+
+        classone = ["Bilal", "Huzaifah", "Hammad", "Moshin"]
+
+        classtwo = [{
+            id: 1,
+            name: "hammad",
+            fathername: "salman",
+            phone: "034007889032",
+            address: "Khi"
+        }, {
+            id: 2,
+            name: "bilal",
+            fathername: "saad",
+            phone: "034004352032",
+            address: "Lhr"
+        }, {
+            id: 3,
+            name: "huzaifah",
+            fathername: "umer",
+            phone: ["03215670953", "0321678345213"],
+            address: "Gjw"
+
+        }]
+
+        console.log(classtwo[2].phone[1])
+        
+
+    </script>
+
+</body>
+
+</html>
